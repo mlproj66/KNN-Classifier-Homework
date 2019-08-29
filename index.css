@@ -1,0 +1,35 @@
+button {
+  border-radius: 10px;
+  background-color: #000000; /* Black */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+p {
+  font-size: 24px;
+}
+
+#console {
+  font-size: 24px;
+}
+
+#class-a {
+  background-color: #10822e; /* Green */
+}
+
+#class-b {
+  background-color: #103282 /* Blue */
+}
+
+#class-c {
+  background-color: #821032 /* Red */
+}
+
+#clearClassifier {
+  background-color: #000000 /* Avocado */
+}

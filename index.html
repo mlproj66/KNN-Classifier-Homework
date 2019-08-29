@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet@2.0.2"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+    <title>KNN Classifier</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+  </head>
+  <body>
+    <div id="console"></div>
+
+    <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+    <br/>
+    <p>Click a button to add an example frame image for class A, B, or C</p>
+    <button id="class-a">Add A</button>
+    <button id="class-b">Add B</button>
+    <button id="class-c">Add C</button>
+    <button id="class-none">No Action</button>
+    <br/><br/>
+    <button id="clearClassifier">Clear Examples</button>
+
+    <!-- Load index.js after the content of the page -->
+    <script src="index.js"></script>
+  </body>
+</html>
